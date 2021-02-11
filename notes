@@ -1,0 +1,12 @@
+1. We have 4 types of Display
+    *Block
+    *Inline
+    *Inline-Block
+    *None : that get rid of our element
+
+2.to remove some element from our page we can do it in 2 ways
+    a) display:none;
+        = it just remove the element and remove space it occupied
+
+    b)visibility: hidden;
+        = it just hide the element and space it still occupied
