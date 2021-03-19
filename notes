@@ -26,3 +26,36 @@
   }
 
 ex2.   @media (min-width: 768px) and (max-width: 1000px) mtlb 1000-768px beech bas ye query run hogi
+
+
+4. Combined Selectors
+ex. HTML
+   <div class="container">
+    <h1 class="title container"> Hello World</h1>
+    </div>
+    <div class="conatiner-fluid">
+      <h1 class="title"> Good Bye World</h1>
+    </div>
+    CSS
+    .container .title  //.parent .child (if we have space)
+    {  color:green;  }
+    // if we dont have any space that means both condition have to be fulfilled
+
+5. Proirity of Selectors
+   1.inline styling
+   2.ID's
+   3.classes
+   4.hmtl element
+   ex. HTML <h1 id="heading" class="title" style="color:red;">Hello World</h1>
+     CSS
+     h1{
+      color:green;
+      color:cyan;
+     }
+    .title{
+     color:blue;
+    }
+    #heading{
+     color:brown;
+    }
+   final color will be red
