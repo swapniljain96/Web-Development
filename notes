@@ -10,3 +10,19 @@
 
     b)visibility: hidden;
         = it just hide the element and space it still occupied
+3.Types of media query:
+  @media print : works when we do print of that page
+  @media screen: works by specifying the size of the screen
+  @media speech: activate if website read for some visually impaired person
+
+  SYNTAX: @media <type> <feature>
+
+  ex1. @media screen(max-width: 900px) //it means when screen size is 900px ya usse jyada pr kaam nahi karegi
+  jab screen ki size 900px se kam hogi tabhi bas ye media query is andar wala run karega
+  {
+
+      //Change Something
+
+  }
+
+ex2.   @media (min-width: 768px) and (max-width: 1000px) mtlb 1000-768px beech bas ye query run hogi

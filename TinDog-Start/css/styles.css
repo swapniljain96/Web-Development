@@ -1,7 +1,17 @@
 body{
   font-family: 'Montserrat';
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
 
+.big-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
 
 #title{
   background-color: #ff4c68;
@@ -10,12 +20,7 @@ body{
 .container-fluid{
   padding: 3% 15%;
 }
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: bold;
-}
+
 
 /* font-family: 'Ubuntu', sans-serif; */
 
@@ -46,4 +51,34 @@ h1{
 .img{
   width: 60%;
   transform: rotate(25deg);
+}
+#cta{
+ background-color: #ff4c68;
+ color: #fff;
+ text-align: center;
+ padding: 7% 15%;
+
+}
+.cta-head{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social{
+  margin: 20px 10px;
+}
+@media (max-width: 992px) {
+  #title{
+    text-align: center;
+  }
+
+  .img{
+    width: 40%;
+  position: static;
+  transform: rotate(0);
+  }
 }
