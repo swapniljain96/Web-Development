@@ -59,3 +59,10 @@ ex. HTML
      color:brown;
     }
    final color will be red
+6. Ways of incorporating JavaScript
+  1.Inline : inside the body tag
+  2.Internal JS
+  eg. <script type="text/javascript">
+   alert("Hello");
+  </script>
+  3.External
