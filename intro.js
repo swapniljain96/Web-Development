@@ -57,3 +57,32 @@ while(condition){
 for(initialize;condition;updation){
   // do something
 }
+
+// DOM(Document Object Model)
+//  we can get our elements by many Ways
+  1. document.getElementById("head");
+  2. document.getElementsByClassName();
+  3. document.getElementsByTagName();
+  4. document.querySelector();
+  // in point 4 we can select this like we use in our css file ex. h1 for html tag document.querySelector(h1);
+  // .<classname> for class  document.querySelector(.btn);
+  //  #<id> for id  document.querySelector(#head);
+  // we can combine our selectors and query something that is quite specific like ("li  a")
+
+  // to add a class of the object on the go
+  document.querySelector("button").classList;  // this give us all the class that is attached to button tag
+
+  document.querySelector("button").classList.add("abc"); //this is use to add class for a tag on the go
+  document.querySelector("button").classList.remove("abc"); //this is use to remove class for a tag on the go
+  document.querySelector("button").classList.toggle("abc"); //if class added then remove vice-versa   for a tag on the go
+
+  document.querySelector("h1").innerHTML; //this give all the HTML that is inside the h1 tag
+
+  document.querySelector("h1").textContent;//this  give us the only text that is inside the h1 tag
+
+// to change the ATTRIBUTE
+  document.querySelector("a").attributes; // we get all the attributes of anchor tag
+
+  document.querySelector("a").getAttribute("href"); // we get only specific attribute of the anchor tag
+
+  document.querySelector("a").setAttribute("href","what we want to change"); // if we want to change specific attribute of the anchor tag
