@@ -86,3 +86,50 @@ for(initialize;condition;updation){
   document.querySelector("a").getAttribute("href"); // we get only specific attribute of the anchor tag
 
   document.querySelector("a").setAttribute("href","what we want to change"); // if we want to change specific attribute of the anchor tag
+
+// JScript OBJECT
+
+   var ObjectName={
+     property-name1: value,
+     property-name2: value,
+     property-name3: value,
+     property-name4: value,
+     property-name5: value
+   }
+
+// Constructor function for to create objects
+ function ObjectName(property-name1,property-name2,property-name3,..)
+ { this.property-name1: value,
+   this.property-name2: value,
+   this.property-name3: value,
+   .
+   .
+ }
+// initialize OBJECT
+
+var Object1= new ObjectName(property-name1,property-name2,property-name3,..)
+
+ex.
+function housekeeper(yearOfEx,name,cleaningRepo){
+  this.yearOfEx=yearOfEx,
+  this.name=name,
+  this.cleaningRepo=cleaningRepo
+}
+
+ var housekeeper1= new housekeeper(12,"Ram",["Bedroom","lobby"]);
+
+ // METHODS
+ fucntion cleanHere(){
+   alert("I am cleaning here");
+ }
+
+
+// we can also add the methods in our objects also like this
+function housekeeper(yearOfEx,name,cleaningRepo){
+  this.yearOfEx=yearOfEx,
+  this.name=name,
+  this.cleaningRepo=cleaningRepo
+  this.clean  = fucntion(){
+    alert("I am cleaning here");
+  }
+}
