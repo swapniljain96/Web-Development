@@ -1,9 +1,9 @@
 // $() is equal to JQuery()
 
 
-// $(document).ready(function(){
-//    $("h1").css("color","red")  this will run only if JQuery CDN is ready
-// });
+$(document).ready(function(){
+   $("h1").css("color","red")  this will run only if JQuery CDN is ready
+});
 
 console.log($("h1").css("color")); // this will display the value of the property
 console.log($("h1").css("font-size")); //--
@@ -12,15 +12,15 @@ console.log($("h1").css("font-size")); //--
 $("h1").css("color", "red"); //this is will work if JQuery cdn is inside the body but in last
 
 
-//
-// // to add the class on the go
-// $("h1").addClass("big margin");
-//
-// // to remove the class on the go
-// // $("h1").removeClass("big");
-//
-// // to check if tag has that class or not
-// console.log($("h1").hasClass("big"));
+
+// to add the class on the go
+$("h1").addClass("big margin");
+
+// to remove the class on the go
+// $("h1").removeClass("big");
+
+// to check if tag has that class or not
+console.log($("h1").hasClass("big"));
 
 //to add the text in the element
 $("h1").text("new text");
