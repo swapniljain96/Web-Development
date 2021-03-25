@@ -66,3 +66,30 @@ ex. HTML
    alert("Hello");
   </script>
   3.External
+
+
+7. REST API
+   there are 5 methods in REST API
+    GET            [READ] (CRUD)
+    app.get(function(req,res){
+      //if we want out server to serve us some resource
+    });
+
+    POST           [CREATE]
+    app.post(function(req,res){
+      //whenever we create a form in our website, when data is posted in our server
+      //in this case the req contains the data & res is "success" or "failure"
+    });
+
+    PUT / PATCH   {both update the database} [UPDATE]
+    app.put(function(req,res){
+      // we are updating our database by sending an entire data entry to replace the previous one
+    });
+    app.patch(function(req,res){
+      //we are only sending the piece of data that need to be updated
+    });
+
+    DELETE         [DELETE]
+    app.delete (function(req,res){
+      //delete the particular data in our database
+    });
