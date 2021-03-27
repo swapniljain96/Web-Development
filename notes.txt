@@ -91,5 +91,5 @@ ex. HTML
 
     DELETE         [DELETE]
     app.delete (function(req,res){
-      //delete the particular data in our database
+      //delete the particular data in our database 
     });

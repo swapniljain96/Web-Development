@@ -1,0 +1,9 @@
+const React=require("react");
+const ReactDOM=require("react-dom");
+
+
+// it takes 3 parameter
+ReactDOM.render(WHAT to show, WHERE to show,callback function which we want to run);
+
+
+//Babel is a JavaScript compiler that comes in "react" package
