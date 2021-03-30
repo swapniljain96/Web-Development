@@ -83,3 +83,30 @@ ReactDOM.render(
   <h1 style={customStyle}>Hello World!</h1>,
   document.getElementById("root")
 );  // we can also do this
+
+// how to make our code MODULAR
+function Heading() {
+  return <h1>My Favourite Foods</h1>;
+}
+
+ReactDOM.render(
+  <div>
+    <Heading />  //this is self closing tag so we can use this convention
+    <ul>
+      <li>Bacon</li>
+      <li>Jamon</li>
+      <li>Noodles</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
+
+// we can create the different file like "Heading.jsx" to separate our code from the
+// main page and can reuse anywhere, code be like this:
+import React from "react";
+
+function Heading() {
+  return <h1>My Favourite Foods</h1>;
+}
+
+export default Heading;  //export default means any file can access that file
